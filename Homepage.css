@@ -1,0 +1,121 @@
+.navbar-brand {
+    size: auto;
+    
+}
+
+.jumbotron {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0;
+   }
+
+  #Welcome .jumbotron{
+    background-image: url("mauricio-artieda-Tm0urvAW044-unsplash.jpg");
+    }
+
+    .carousel-inner{
+    color: grey
+    }
+   
+   .display-1 {
+    font-size: 100px;
+    font-weight: 500px;
+    color: grey;
+    text-align: center;
+    text-shadow: 30px;
+    font-style: contrast;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+   }
+
+   .display-2 {
+    font-size: 30px;
+    font-weight: 5000px;
+    color: grey;
+    font-style: bold;
+    padding: 60px;
+   }
+
+
+   .location-icon {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    color: grey;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+   }
+
+   .location-icon:hover{
+    color: #222;
+   }
+
+   footer {
+    display: flex;
+    justify-content: center;
+    background-color: #666;
+    height: 100px;
+    padding: 20px;
+   }
+    
+   footer a {
+    margin: 5px;
+    text-decoration: none !important;
+   }
+    
+   .social-icon {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    color: #666;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   }
+    
+   .social-icon:hover{
+    color: #222;
+   }
+
+   /* Style the form element with a border around it */
+form {
+    border: 4px solid #f1f1f1;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .container {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
